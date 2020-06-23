@@ -1,10 +1,10 @@
 {
-	"name": "github-vscode-theme",
-	"displayName": "GitHub Theme",
-	"description": "GitHub theme for VS Code",
+	"name": "github-pink-vscode-theme",
+	"displayName": "GitHub PINK Theme",
+	"description": "GitHub PINK theme for VS Code",
 	"version": "1.1.2",
 	"preview": true,
-	"publisher": "GitHub",
+	"publisher": "Andrew Stanton-Nurse",
 	"license": "MIT",
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -13,10 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/primer/github-vscode-theme"
+		"url": "https://github.com/anurse/github-pink-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/primer/github-vscode-theme/issues"
+		"url": "https://github.com/anurse/github-pink-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.43.0"
@@ -33,14 +33,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "GitHub Light",
+				"label": "GitHub PINK!",
 				"uiTheme": "vs",
-				"path": "./themes/light.json"
-			},
-			{
-				"label": "GitHub Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark.json"
+				"path": "./themes/pink.json"
 			}
 		]
 	},
@@ -52,10 +47,5 @@
 	"scripts": {
 		"start": "nodemon --watch src src/index.js",
 		"build": "node src/index.js"
-	},
-	"__metadata": {
-		"id": "7328a705-91fc-49e6-8293-da6f112e482d",
-		"publisherDisplayName": "GitHub",
-		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002"
 	}
 }
